@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(240, 212, 203);
+  background-color: white;
 }
 
 .navbar {
@@ -35,14 +35,17 @@ header .carousel-inner h1 {
   font-size: 90px;
   margin: 20px;
   font-weight: 500;
-  color: rgb(139, 15, 15);
+  color: black;
 }
 header .carousel-inner h2, header .carousel-inner h3, header .carousel-inner h4 {
   font-family: "Parisienne";
   font-size: 60px;
   margin: 20px;
   font-weight: 500;
-  color: rgb(139, 15, 15);
+  color: black;
+}
+header .carousel-inner .carousel-caption {
+  padding-bottom: 25rem;
 }
 
 main iframe {
@@ -88,7 +91,7 @@ main .card .card-body .card-text {
   text-align: center;
   margin-top: 25px;
 }
-main .contacto {
+main #contac {
   border: 2px solid rgb(109, 27, 27);
   border-radius: 12px;
   padding: 1em;
